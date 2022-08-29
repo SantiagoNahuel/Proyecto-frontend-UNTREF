@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Contactenos</h1>
+    </section>
+    <section>
+        <form action="https://formsubmit.co/b7fb458233e88e1290a3c1242559d745" method="post">
+            <label for="">Nombre completo</label>
+            <input name="nombre" type="text" placeholder="Nombre completo" maxlength="70">
+            <label for="">Fecha de nacimiento</label>
+            <input name="fechanac" type="date" placeholder="Fecha de nacimiento" min="01-01-2022">
+            <label for="">E-mail</label>
+            <input name="correo electronico" type="email" placeholder="correo electronico" maxlength="50">
+            <label for="">Pais</label>
+            <select name="pais">
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Uruguay</option>
+                <option>Chile</option>
+            </select>
+            <textarea name="Consulta" placeholder="Escriba su consulta" maxlength="500"></textarea>
+            <label for="">¿Desea recibir novedades al correo electronico?</label>
+                <label>
+                    <input name="recinfo" type="radio" value="Si">Si
+                </label>
+                <label>
+                    <input name="recinfo" type="radio" value="No">No
+                </label>
+            <label for="">He leido y acepto terminos y condiciones</label>
+            <input type="checkbox">
+            <hr>
+            <label for="">Adjuntar un archivo</label>
+            <input type="file" name="archivo" id="">
+            <!--<input type="submit" value="Enviar">-->
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
+
+</body>
+</html>
